@@ -5,8 +5,8 @@ import '../CSS/HomePage.css'
 
 const Home = () => {
     return(
-        <div className="Home">
-            <h1>Welcome to the homepage</h1>
+        <div>
+            <h1>Welcome to the homepage!</h1>
         </div>
     )
 }
