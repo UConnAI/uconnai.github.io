@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 0.5rem 2.5rem;
+  margin-bottom: 20rem;
+  z-index: 1;
+  width: 100%;
+  position: sticky;
+  background-color: transparent;
+}
+.navbar-sticky {
+  background: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 1px #222;
+  animation: moveDown 0.5s ease-in-out;
+}
+.navbar-link {
+  padding-right: 4rem;
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+}
+.navbar-link-item {
+  font-size: large;
+  margin: 1rem 1rem 1rem 1rem;
+  float: right;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.textHeader {
+  left: 1rem;
+  top: rem;
+  text-decoration: none;
+  font-family: Saira;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 57px;
+  color: #ffffff;
+  position: sticky;
+}
+.joinButton {
+  background: #ffffff;
+  border-radius: 21.5px;
+}
+.joinText {
+  text-decoration: #222;
+}
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(360deg);
+  }
+  100% {
+    transform: rotateY(0rem);
+  }
+}
