@@ -1,6 +1,5 @@
 import React from "react";
 import "../CSS/NavagationBar.css";
-import "../CSS/logo.css";
 import { Link } from "react-router-dom";
 
 const NavagationBar = ({ sticky }) => {
