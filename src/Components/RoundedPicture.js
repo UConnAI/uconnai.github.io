@@ -6,12 +6,14 @@ function RoundedPicture(props) {
   let person = props.person;
   let ErrorImage = "Failed to load " + person + "'s image";
   return (
-    <img
-      src={props.image}
-      alt={ErrorImage}
-      width={size}
-      className="RoundedImage"
-    ></img>
+    <div className="X">
+      <img
+        src={props.image}
+        alt={ErrorImage}
+        width={size}
+        className="RoundedImage"
+      ></img>
+    </div>
   );
 }
 
