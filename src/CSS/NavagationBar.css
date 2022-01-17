@@ -44,12 +44,12 @@ a {
   color: #ffffff;
   position: sticky;
 }
-.joinButton {
-  background: #ffffff;
-  border-radius: 21.5px;
-}
 .joinText {
-  text-decoration: #222;
+  color: black;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  width: 3rem;
+  border-radius: 30px;
 }
 @keyframes moveDown {
   from {

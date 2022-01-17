@@ -18,11 +18,9 @@ const NavagationBar = ({ sticky }) => {
         <Link to="/TutorialPage" className="navbar-link-item">
           Tutorials
         </Link>
-        <button className="joinButton">
-          <Link to="JoinPage">
-            <div className="joinText">Join</div>
-          </Link>
-        </button>
+        <Link to="JoinPage">
+          <div className="joinText">Join</div>
+        </Link>
       </div>
     </nav>
   );
