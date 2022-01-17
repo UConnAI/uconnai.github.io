@@ -1,0 +1,75 @@
+.MemberBox {
+  position: absolute;
+  background-color: transparent;
+  text-align: center;
+  top: 0px;
+  left: 0px;
+}
+.MemberNameText {
+  color: whitesmoke;
+  margin: 0%;
+}
+.MemberPositionText {
+  color: white;
+  margin: 0%;
+}
+
+.WholeMemberBox {
+  position: relative;
+}
+
+.RoundedImage {
+  border-radius: 50%;
+  position: static;
+  left: 19.38%;
+  right: 19.9%;
+  top: 5.87%;
+  bottom: 49.62%;
+
+  background: #c4c4c4;
+}
+
+.InfoBox {
+  background-color: magenta;
+  width: 389px;
+  height: 529px;
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
+  border-radius: 30px;
+}
+
+.Text {
+  color: black;
+  margin: 0px;
+  text-align: left;
+  padding: 10px;
+  position: relative;
+}
+
+.RoundedInfoImage {
+  position: absolute;
+  border-radius: 50%;
+  left: -50%;
+}
+
+/*
+    left: 19.38%;
+    right: 19.9%;
+    top: 5.87%;
+    bottom: 49.62%;
+*/
+
+/* use the top and left to move the Member box*/
+/*.MemberBox{ FIGMA TEMPLATE CSS
+
+    position: sticky;
+    width: 389px;
+    height: 529px;
+    left: -2px;
+    top: -1px;
+    
+    background: aqua;
+    border-radius: 30px;
+}*/
