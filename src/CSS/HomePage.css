@@ -1,0 +1,27 @@
+.alexPic {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 25.16%;
+}
+
+.teamPic {
+  border-radius: 50%;
+  position: absolute;
+  left: 129px;
+  right: 1148px;
+  top: 1121px;
+  bottom: 1276px;
+  width: 265px;
+  height: 265px;
+  padding: 10px;
+}
+
+.nameImg {
+  position: absolute;
+  left: 13.19%;
+  right: 11.06%;
+  top: 79.3%;
+  bottom: 7.64%;
+}
