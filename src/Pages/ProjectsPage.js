@@ -1,6 +1,7 @@
 import React from "react";
+import LeftProjectTitle from "../Components/LeftProjectTitle";
 
-const ProjectsPage = () => {
-  return <div></div>;
-};
+function ProjectsPage() {
+  return <LeftProjectTitle />;
+}
 export default ProjectsPage;
