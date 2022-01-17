@@ -1,7 +1,7 @@
 import React from "react";
 import "../CSS/HomePage.css";
 
-const Home = () => {
+const Home = (element) => {
   return (
     <div>
       <h1>Welcome to the homepage!</h1>
