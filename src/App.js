@@ -14,14 +14,15 @@ import NotFound from "./Pages/NotFound";
 function App() {
   return (
     <div className="App">
-      {/* <Router> */}
+
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/TeamPage" element={<TeamPage />} />
-        <Route path="/JoinPage" element={<JoinPage />} />
-        <Route path="404" element={<NotFound />} />
+        <Route path="/" element={ <HomePage /> }>
+          <Route path="TeamPage" element={ <TeamPage /> } />
+          <Route path="JoinPage" element={ <JoinPage /> } />
+          <Route path="404" element={ <NotFound /> } />
+        </Route>
       </Routes>
-      {/* </Router> */}
+
     </div>
   );
 }
