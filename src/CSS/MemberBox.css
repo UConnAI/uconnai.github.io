@@ -14,7 +14,6 @@
 .MemberPositionText {
   color: whitesmoke;
   text-align: center;
-
 }
 
 .WholeMemberBox {
@@ -28,7 +27,7 @@
 }
 
 .InfoBox {
-  background-color: rgb(255, 255, 255,0.3);
+  background-color: rgb(255, 255, 255, 0.3);
   width: 389px;
   height: 565px;
   position: absolute;
@@ -52,17 +51,28 @@
   left: -50%;
 }
 
-.TutorialPicture{
+.TutorialPicture {
   border-radius: 50px;
   position: static;
   background: #c4c4c4;
-
 }
 
-.TutorialBox{
+.TutorialBox {
   color: whitesmoke;
   text-align: center;
   position: absolute;
+}
+
+.LeftProject {
+  display: flex;
+}
+.ProjectLeftPic {
+  width: 400px;
+  border-radius: 30px;
+}
+
+.ProjectText {
+  padding: 40px;
 }
 /*
     left: 19.38%;
