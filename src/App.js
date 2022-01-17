@@ -16,6 +16,7 @@ import ProjectsPage from "./Pages/ProjectsPage";
 function App() {
   return (
     <div className="App">
+      <NavagationBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/TeamPage" element={<TeamPage />} />
