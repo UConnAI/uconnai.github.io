@@ -6,22 +6,35 @@
   bottom: 25.16%;
 }
 
+.upcomingText {
+  font-size: 36px;
+  line-height: 57px;
+}
+
+.teamText {
+  font-size: 36px;
+  line-height: 57px;
+  position: relative;
+  width: 178px;
+  height: 57px;
+  margin-left: 129px;
+  margin-top: 1018px;
+}
+
 .teamPic {
   border-radius: 50%;
-  position: absolute;
-  left: 129px;
-  right: 1148px;
-  top: 1121px;
-  bottom: 1276px;
+  position: relative;
   width: 265px;
   height: 265px;
-  padding: 10px;
+}
+
+.teamPictures {
+  text-align: left;
+  position: relative;
+  margin-left: 129px;
 }
 
 .nameImg {
-  position: absolute;
-  left: 13.19%;
-  right: 11.06%;
-  top: 79.3%;
-  bottom: 7.64%;
+  position: relative;
+  margin-bottom: 50px;
 }

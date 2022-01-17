@@ -9,8 +9,8 @@ const HomePage = (element) => {
     <div>
       <h1>Welcome to the homepage!</h1>
       <p className="upcomingText">Upcoming Events</p>
-      <div className="teamSection">
-        <p className="teamText">The Team</p>
+      <p className="teamText">The Team</p>
+      <div className="teamPictures">
         <img className="teamPic" src={AlexMoment} />
         <h1 className="nameImg">Alexander Solod</h1>
       </div>
