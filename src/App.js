@@ -6,21 +6,20 @@ import {
   Routes,
   Navigate as Redirect,
 } from "react-router-dom";
-import HomePage from "./pages/Home";
-import TeamPage from "./pages/TeamPage";
-import JoinPage from "./pages/JoinPage";
-import NotFound from "./pages/NotFound";
+import HomePage from "./Pages/Home";
+import TeamPage from "./Pages/TeamPage";
+import JoinPage from "./Pages/JoinPage";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   return (
     <div className="App">
       {/* <Router> */}
       <Routes>
-        <Route path="/" element={<HomePage />}>
-          <Route path="/TeamPage" element={<TeamPage />} />
-          <Route path="/JoinPage" element={<JoinPage />} />
-          <Route path="/404" element={<NotFound />} />
-        </Route>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/TeamPage" element={<TeamPage />} />
+        <Route path="/JoinPage" element={<JoinPage />} />
+        <Route path="404" element={<NotFound />} />
       </Routes>
       {/* </Router> */}
     </div>
