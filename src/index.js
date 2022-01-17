@@ -1,13 +1,12 @@
+import React from "react";
 import ReactDOM from "react-dom";
 import "./CSS/index.css";
-import React from "react";
-import Home from "./Pages/Home";
-import TeamPage from "./Pages/TeamPage";
-
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <TeamPage/>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById("root")
 );
