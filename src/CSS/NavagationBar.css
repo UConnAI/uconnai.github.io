@@ -1,10 +1,8 @@
 .navbar {
   display: flex;
-
   justify-content: space-around;
   padding: 0.5rem 2.5rem;
   padding-top: 1;
-  margin-bottom: 20rem;
   z-index: 1;
   width: 100%;
   position: fixed;
