@@ -16,6 +16,7 @@ import Footer from "./Components/FooterComponent";
 function App() {
   return (
     <div className="App">
+      <NavagationBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/TeamPage" element={<TeamPage />} />
