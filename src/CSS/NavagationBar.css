@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  align-items: flex-start;
+
   justify-content: space-around;
   padding: 0.5rem 2.5rem;
   padding-top: 1;
@@ -8,7 +8,13 @@
   z-index: 1;
   width: 100%;
   position: fixed;
-  background-color: rgba(0, 6, 120, 0.8);
+  background-color: linear-gradient(
+    180deg,
+    rgba(0, 6, 120, 0.61) 0%,
+    rgba(0, 6, 120, 0.6) 27.6%,
+    rgba(0, 6, 120, 0.29) 59.37%,
+    rgba(0, 6, 120, 0) 100%
+  );
   top: 0;
 }
 .navbar-sticky {
@@ -22,7 +28,6 @@
 .navbar-link {
   padding-right: 4rem;
   display: flex;
-  flex-direction: row;
   padding: auto;
 }
 .navbar-link-item {
@@ -30,22 +35,23 @@
   margin: 1rem 1rem 1rem 1rem;
   float: right;
 }
+
 a {
   text-decoration: none;
   color: white;
 }
+
 .textHeader {
-  left: 1rem;
   top: rem;
-  text-decoration: none;
   font-family: Saira;
   font-style: normal;
   font-weight: normal;
   font-size: 2rem;
   line-height: 57px;
-  color: #ffffff;
   position: sticky;
+  align-items: flex-start;
 }
+
 .joinText {
   color: #1a1b71;
   margin-top: 1rem;

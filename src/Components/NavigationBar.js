@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const NavagationBar = ({ sticky }) => {
   return (
     <nav className="navbar">
-      <header className="textHeader">
+      <div className="textHeader">
         <Link to="/">UConn AI</Link>
-      </header>
+      </div>
       <div className="navbar-link">
         <Link to="/TeamPage" className="navbar-link-item">
           Team
