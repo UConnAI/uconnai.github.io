@@ -10,9 +10,9 @@ function LeftProjectTitle(props) {
           className="ProjectLeftPic"
         ></img>
       </div>
-      <div className="ProjectText">
+      <div className="ProjectTextLeft">
         <h3 className="ProjectTitleHeading"> {props.Title}</h3>
-        <p>{props.Description}</p>
+        <p>{props.Description} </p>
       </div>
     </div>
   );

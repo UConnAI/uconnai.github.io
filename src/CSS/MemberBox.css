@@ -64,59 +64,81 @@
   position: absolute;
 }
 
-.LeftProject {
-  overflow: auto;
-  /* Remove the overflow comment so that we can set the character limit , for now it is just a sliding window */
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  background-color: rgb(0, 0, 0, 0.3);
-  width: 1200px;
-  height: 310px;
-  border-radius: 20px;
-}
-.ProjectLeftPic {
-  width: 400px;
-  height: 300px;
-
-  border-radius: 30px;
-  position: sticky;
-
-  background: #c4c4c4;
-}
-
-.ProjectText {
-  font-size: 20px;
-  padding-left: 40px;
-  color: #c4c4c4;
-}
-
 .ProjectTitleHeading {
   /* identical to box height */
-
+  font-size: 36px;
+  line-height: 57px;
   color: #ffffff;
+}
+
+.LeftProject {
+  /* overflow: auto; */
+  /* Remove the overflow comment so that we can set the character limit , for now it is just a sliding window */
+  display: flex;
+  /* background-color: rgb(0, 0, 0, 0.3); */
+  width: 1200px;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 370px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
 }
 
 .RightProject {
   display: flex;
-  align-items: right;
-  justify-content: right;
-  background-color: rgb(0, 0, 0, 0.3);
-  border-radius: 20px;
+  /* background-color: rgb(0, 0, 0, 0.3); */
   width: 1200px;
-  height: 310px;
-  overflow: auto;
+  height: 500px;
+  border-radius: 20px;
+  margin-left: 370px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  /* overflow: auto; */
+}
+
+.ProjectLeftPic {
+  width: 536px;
+  height: 402px;
+  border-radius: 30px;
+  position: sticky;
+  background: #c4c4c4;
 }
 
 .ProjectRightPic {
+  width: 536px;
+  height: 402px;
   border-radius: 30px;
-  width: 400px;
-  height: 300px;
   position: sticky;
+  background: #c4c4c4;
+}
+
+.ProjectTextRight {
+  margin-right: 72px;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 41px;
+  color: #c4c4c4;
+  text-align: right;
+  padding-right: 48px;
+  /* width: 536px; */
+}
+
+.ProjectTextLeft {
+  margin-left: 72px;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 41px;
+  padding-left: 48px;
+  color: #c4c4c4;
+  text-align: left;
+  width: 536px;
 }
 
 .Footer {
   background: rgba(0, 6, 120, 0.2);
+  bottom: 0;
 }
 
 .CopyrightFooter {
@@ -127,6 +149,10 @@
   margin-top: 2rem;
 }
 
+.Header {
+  margin-top: 100px;
+  font-size: 50px;
+}
 /*
     left: 19.38%;
     right: 19.9%;

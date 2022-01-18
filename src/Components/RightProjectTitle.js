@@ -3,7 +3,7 @@ import React from "react";
 function RightProjectTitle(props) {
   return (
     <div className="RightProject">
-      <div className="ProjectText">
+      <div className="ProjectTextRight">
         <h3 className="ProjectTitleHeading"> {props.Title}</h3>
         <p>{props.Description}</p>
       </div>
