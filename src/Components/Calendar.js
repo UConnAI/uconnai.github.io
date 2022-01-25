@@ -3,9 +3,10 @@ import FullCalender from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
-import iCalendarPlugin from "@fullcalendar/icalendar";
+import googleCalendarPlugin from "@fullcalendar/google-calendar";
 import "../CSS/Calendar.css";
 const Calendar = () => {
+  const api_key = process.env.REACT_APP_CAL_API;
   return (
     <div id="Calendar">
       <FullCalender
@@ -13,7 +14,7 @@ const Calendar = () => {
           dayGridPlugin,
           timeGridPlugin,
           interactionPlugin,
-          iCalendarPlugin,
+          googleCalendarPlugin,
         ]}
         headerToolbar={{
           left: "prev,next today",
@@ -26,17 +27,12 @@ const Calendar = () => {
         selectMirror={true}
         weekends={true}
         dayMaxEvents={true}
-        eventClick={handleEventClicks}
+        googleCalendarApiKey={api_key}
         events={{
-          url: "https://calendar.google.com/calendar/ical/uconnaiclub%40gmail.com/public/basic.ics",
-          format: "ics",
+          googleCalendarId: "uconnaiclub@gmail.com",
         }}
       />
     </div>
   );
 };
 export default Calendar;
-
-function handleEventClicks(clickInfo) {
-  console.log(clickInfo);
-}

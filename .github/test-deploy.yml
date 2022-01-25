@@ -26,6 +26,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
       - run: npm i -D
+      - run: sh setEnv.sh ${{secrets.GOOGLE_CAL_API}}
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test
