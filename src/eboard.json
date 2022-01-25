@@ -1,0 +1,86 @@
+{
+  "President": [
+    {
+      "name": "Alexander Solod",
+      "major": ["Computer Science", "Pre-Med"],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": ""
+    }
+  ],
+  "VicePresident": [
+    {
+      "name": "Usman Rahman",
+      "major": ["Computer Science"],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": "I am intere"
+    }
+  ],
+  "Treasurer": [
+    {
+      "name": "Mike Baz",
+      "major": ["Computer Science"],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": ""
+    }
+  ],
+  "Secretary": [
+    {
+      "name": "Charitarth Chugh",
+      "major": ["Computer Science"],
+      "minor": [],
+      "grad-year": 2025,
+      "bio": "I am a freshmen who is always interested in expanding my knowlege about Deep Learning and Linux. I am keen on learning more about MLOps and Transformers."
+    }
+  ],
+  "Social Media Admin": [
+    {
+      "name": "",
+      "major": ["Physics"],
+      "minor": ["Astrophysics"],
+      "grad-year": 2023,
+      "bio": ""
+    },
+    {
+      "name": "Kaitlyn Tran",
+      "major": [],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": ""
+    }
+  ],
+  "Webmaster": [
+    {
+      "name": "Ronak Sahu",
+      "major": ["Computer Science", "Applied Mathamatics"],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": ""
+    },
+    {
+      "name": "Siddarth Sinha",
+      "major": ["Computer Science"],
+      "minor": [],
+      "grad-year": 2024,
+      "bio": "I’m a sophomore majoring in computer science and engineering. I’m interested computer vision and deep learning"
+    },
+    {
+      "name": "Manik Soomro",
+      "major": ["Computer Science"],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": ""
+    }
+  ],
+  "Senior Advisor": [
+    {
+      "name": "Nicolas David Galindo Carvajal",
+      "major": ["Computer Science"],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": ""
+    }
+  ]
+}
