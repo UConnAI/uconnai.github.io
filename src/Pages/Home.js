@@ -2,7 +2,7 @@ import React from "react";
 import "../CSS/HomePage.css";
 import Box from "../Components/Box";
 import TeamPictures from "../Components/TeamPictures";
-import AlexMoment from "../Alex-Moment-Pic.jpg";
+import AlexMoment from "../assets/Alex-Moment.jpg";
 
 const HomePage = (element) => {
   return (

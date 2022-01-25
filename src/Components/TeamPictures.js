@@ -1,6 +1,6 @@
 import React from "react";
 import RoundedPicture from "./RoundedPicture";
-import AlexMoment from "../Alex-Moment-Pic.jpg";
+import AlexMoment from "../assets/Alex-Moment.jpg";
 import "../CSS/App.css";
 
 const TeamPictures = () => {
