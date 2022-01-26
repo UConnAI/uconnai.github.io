@@ -137,7 +137,9 @@
 }
 
 .Footer {
+  position: absolute;
   bottom: 0;
+  left: 0;
 }
 
 .CopyrightFooter {
