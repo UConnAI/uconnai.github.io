@@ -1,12 +1,15 @@
 import React from "react";
 import RoundedPicture from "./RoundedPicture";
-import AlexMoment from "../assets/Alex-Moment.jpg";
-import "../CSS/App.css";
+import "../CSS/HomePage.css";
 
-const TeamPictures = () => {
+const TeamPictures = (props) => {
   return (
-    <div>
-      <img className="teamPic" src={AlexMoment} />
+    <div className="MemberBox">
+      <RoundedPicture
+        image={require(`../assets/${props.pic}`)}
+        person={props.Name}
+      />
+      <h1 className="MemberNameText">{props.Name}</h1>
     </div>
   );
 };

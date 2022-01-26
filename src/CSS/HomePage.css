@@ -12,29 +12,39 @@
 }
 
 .teamText {
-  font-size: 36px;
+  font-size: 2rem;
   line-height: 57px;
   position: relative;
-  width: 178px;
-  height: 57px;
-  margin-left: 129px;
-  margin-top: 1018px;
+  /* width: 178px;
+  height: 57px; */
+  /* margin-left: 129px; */
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  justify-content: center;
 }
 
-.teamPic {
-  border-radius: 50%;
-  position: relative;
-  width: 265px;
-  height: 265px;
+.Members {
+  flex: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 30rem;
+  padding-left: 30rem;
+  /* width: fit-content; */
 }
-
-.teamPictures {
-  text-align: left;
-  position: relative;
-  margin-left: 129px;
-}
-
-.nameImg {
-  position: relative;
-  margin-bottom: 50px;
+.MemberBox {
+  background-color: rgba(0, 6, 120, 0.3);
+  width: rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  max-height: 35rem;
+  text-align: center;
+  word-wrap: normal;
+  /* top: -1px;
+  left: -2px; */
+  border-radius: 2rem;
+  overflow: clip;
 }
