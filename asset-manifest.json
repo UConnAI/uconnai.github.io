@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.065c9d08.css",
-    "main.js": "/static/js/main.a6b828e4.js",
+    "main.css": "/static/css/main.3396fafe.css",
+    "main.js": "/static/js/main.aa08e649.js",
     "static/media/Ronak.jpg": "/static/media/Ronak.35cbfc742a21a909810d.jpg",
     "static/media/Alex-Moment.jpg": "/static/media/Alex-Moment.a60071e83cb4d1cb1fb0.jpg",
     "static/media/Manik_soomro.jpg": "/static/media/Manik_soomro.03858c4a682d91fcb33c.jpg",
     "static/media/Charitarth.jpg": "/static/media/Charitarth.54caf6c7790e392bbdb6.jpg",
     "static/media/image0.jpg": "/static/media/image0.f78d445c925fd7bfa792.jpg",
+    "static/media/Sofya.jpeg": "/static/media/Sofya.61428957b8b23102c895.jpeg",
     "static/media/Sid.jpg": "/static/media/Sid.0791eeaf804381eb86a1.jpg",
     "static/media/logo.jpg": "/static/media/logo.86a758c9e75d5c54664d.jpg",
     "static/media/Alex.jpg": "/static/media/Alex.5cc51c15ef02fd639138.jpg",
+    "static/media/bridget.jpg": "/static/media/bridget.3cf6291e9ba91113f3ab.jpg",
     "static/media/Usman.jpg": "/static/media/Usman.ff7ef7bfeb6b7ebb3448.jpg",
     "index.html": "/index.html",
-    "main.065c9d08.css.map": "/static/css/main.065c9d08.css.map",
-    "main.a6b828e4.js.map": "/static/js/main.a6b828e4.js.map"
+    "main.3396fafe.css.map": "/static/css/main.3396fafe.css.map",
+    "main.aa08e649.js.map": "/static/js/main.aa08e649.js.map"
   },
   "entrypoints": [
-    "static/css/main.065c9d08.css",
-    "static/js/main.a6b828e4.js"
+    "static/css/main.3396fafe.css",
+    "static/js/main.aa08e649.js"
   ]
 }
