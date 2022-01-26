@@ -14,7 +14,7 @@
       "name": "Usman Rahman",
       "major": ["Computer Science"],
       "minor": [],
-      "pic-path":"./assets/Usman.jpg",
+      "pic-path": "./assets/Usman.jpg",
       "grad-year": 2023,
       "bio": ""
     }
@@ -24,7 +24,7 @@
       "name": "Mike Baz",
       "major": ["Computer Science"],
       "minor": [],
-      "pic-path": "",
+      "pic-path": "./assets/logo.jpg",
       "grad-year": 2023,
       "bio": ""
     }
@@ -46,7 +46,7 @@
       "minor": ["Astrophysics"],
       "grad-year": 2023,
       "bio": "",
-      "pic-path":""
+      "pic-path": "./assets/logo.jpg"
     },
     {
       "name": "Kaitlyn Tran",
@@ -54,7 +54,7 @@
       "minor": [],
       "grad-year": 2023,
       "bio": "",
-      "pic-path":""
+      "pic-path": "./assets/logo.jpg"
     }
   ],
   "Webmaster": [
@@ -64,7 +64,7 @@
       "minor": [],
       "grad-year": 2023,
       "bio": "",
-      "pic-path":""
+      "pic-path": "./assets/Ronak.jpg"
     },
     {
       "name": "Siddarth Sinha",
@@ -80,7 +80,7 @@
       "minor": [],
       "grad-year": 2023,
       "bio": "My major is Computer Science and I work primarily in Software programming with Control Systems. In my spare time, I play cymbals with the UConn Drumline or developing applications.",
-      "pic-path":""
+      "pic-path": "./assets/Manik_soomro.png"
     }
   ],
   "Consultant": [
@@ -90,7 +90,7 @@
       "minor": [],
       "grad-year": 2024,
       "bio": "I am a visiting researcher who is interested in Natural Language Processing",
-      "pic-path":""
+      "pic-path": "./assets/logo.jpg"
     }
   ]
 }
