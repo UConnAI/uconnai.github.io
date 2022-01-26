@@ -6,7 +6,7 @@ import AlexMoment from "../assets/Alex-Moment.jpg";
 import Calendar from "../Components/Calendar";
 const HomePage = (element) => {
   return (
-    <div style={{ marginTop: "7rem" }}>
+    <div>
       <h1>Welcome to the homepage!</h1>
       <p className="upcomingText">Upcoming Events</p>
       <Calendar />
