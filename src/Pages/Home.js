@@ -6,7 +6,7 @@ import AlexMoment from "../assets/Alex-Moment.jpg";
 
 const HomePage = (element) => {
   return (
-    <div>
+    <div style={{ marginTop: "7rem" }}>
       <h1>Welcome to the homepage!</h1>
       <p className="upcomingText">Upcoming Events</p>
       <p className="teamText">The Team</p>
