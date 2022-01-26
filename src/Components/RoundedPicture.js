@@ -12,7 +12,7 @@ function RoundedPicture(props) {
         alt={ErrorImage}
         width={size}
         className="RoundedImage"
-      ></img>
+      />
     </div>
   );
 }

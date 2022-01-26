@@ -2,7 +2,7 @@
   "President": [
     {
       "name": "Alexander Solod",
-      "major": ["Computer Science", "Pre-Med"],
+      "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2023,
       "pic-path": "Alex.jpg",
@@ -60,7 +60,7 @@
   "Website Designer": [
     {
       "name": "Bridget Smith-Epaul",
-      "major": ["Digital Media and Design"],
+      "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2023,
       "bio": "",

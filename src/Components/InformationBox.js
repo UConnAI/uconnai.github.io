@@ -9,7 +9,7 @@ function InformationBox(props) {
       <div className="Text">
         <p>Year: {props.Year}</p>
         <p>Major/Minor : {props.MajandMin}</p>
-        <p>{props.AdditionalInfo}</p>
+        {/* <p>{props.AdditionalInfo}</p> */}
       </div>
     </div>
   );
