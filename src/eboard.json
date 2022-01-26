@@ -2,7 +2,7 @@
   "President": [
     {
       "name": "Alexander Solod",
-      "major": ["Computer Science", "Pre-Med"],
+      "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2023,
       "pic-path": "Alex.jpg",
@@ -41,12 +41,12 @@
   ],
   "Social Media Admin": [
     {
-      "name": "Sopha Levitina",
+      "name": "Sofya Levitina",
       "major": ["Physics"],
       "minor": ["Astrophysics"],
       "grad-year": 2023,
       "bio": "",
-      "pic-path": "logo.jpg"
+      "pic-path": "Sofya.jpeg"
     },
     {
       "name": "Kaitlyn Tran",
@@ -55,14 +55,16 @@
       "grad-year": 2023,
       "bio": "",
       "pic-path": "logo.jpg"
-    },
+    }
+  ],
+  "Website Designer": [
     {
       "name": "Bridget Smith-Epaul",
-      "major": ["Digital Media and Design"],
+      "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2023,
       "bio": "",
-      "pic-path": "logo.jpg"
+      "pic-path": "bridget.jpg"
     }
   ],
   "Webmaster": [
@@ -75,7 +77,7 @@
       "pic-path": "Ronak.jpg"
     },
     {
-      "name": "Siddarth Sinha",
+      "name": "Siddharth Sinha",
       "major": ["Computer Science and Engineering"],
       "minor": [],
       "pic-path": "Sid.jpg",

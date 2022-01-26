@@ -7,9 +7,9 @@ function InformationBox(props) {
     <div className="InfoBox">
       <Box Name={props.Name} Position={props.Position} pic={props.pic} />
       <div className="Text">
-        <p> Year : {props.Year}</p>
+        <p>Year: {props.Year}</p>
         <p>Major/Minor : {props.MajandMin}</p>
-        <p>{props.AdditionalInfo}</p>
+        {/* <p>{props.AdditionalInfo}</p> */}
       </div>
     </div>
   );
