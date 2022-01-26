@@ -1,18 +1,15 @@
 import React from "react";
 import "../CSS/HomePage.css";
-import Box from "../Components/Box";
-import InformationBox from "../Components/InformationBox";
 import TeamPictures from "../Components/TeamPictures";
-import AlexMoment from "../assets/Alex-Moment.jpg";
 import Calendar from "../Components/Calendar";
-const HomePage = (element) => {
+const HomePage = () => {
   const items = parse_elements();
   return (
     <div className="home">
-      <h1>Welcome to the homepage!</h1>
+      <h1 style={{ fontSize: "10rem" }}>UConn AI</h1>
       <p className="upcomingText">Upcoming Events</p>
       <Calendar />
-      <h1 className="teamText">The Team</h1>
+      <h2 className="teamText">The Team</h2>
       <div className="Members">{items}</div>
     </div>
   );
@@ -27,7 +24,6 @@ const parse_elements = () => {
         <TeamPictures
           key={current["name"]}
           Name={current["name"]}
-          style="Box"
           pic={current["pic-path"]}
         />
       );
