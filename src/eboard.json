@@ -5,7 +5,8 @@
       "major": ["Computer Science", "Pre-Med"],
       "minor": [],
       "grad-year": 2023,
-      "bio": ""
+      "pic-path": "./assets/Alex.jpg",
+      "bio": "I am a Honors Computer Science and Pre-med student. I am interested in Machine Learning and Digital Health."
     }
   ],
   "VicePresident": [
@@ -14,7 +15,7 @@
       "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2023,
-      "bio": "I am intere"
+      "bio": ""
     }
   ],
   "Treasurer": [
@@ -32,6 +33,7 @@
       "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2025,
+      "pic-path": "./assets/Charitarth.jpg",
       "bio": "I am a freshman who is always interested in expanding my knowlege about Deep Learning and Linux. I am keen on learning more about MLOps and Transformers."
     }
   ],
@@ -61,8 +63,9 @@
     },
     {
       "name": "Siddarth Sinha",
-      "major": ["Computer Science"],
+      "major": ["Computer Science and Engineering"],
       "minor": [],
+      "pic-path": "./assets/Sid.jpg",
       "grad-year": 2024,
       "bio": "I’m a sophomore majoring in computer science and engineering. I’m interested computer vision and deep learning"
     },
@@ -74,13 +77,13 @@
       "bio": ""
     }
   ],
-  "Senior Advisor": [
+  "Consultant": [
     {
       "name": "Nicolas David Galindo Carvajal",
       "major": ["Computer Science"],
       "minor": [],
-      "grad-year": 2023,
-      "bio": ""
+      "grad-year": 2024,
+      "bio": "I am a visiting researcher who is interested in Natural Language Processing"
     }
   ]
 }
