@@ -6,7 +6,7 @@ const HomePage = () => {
   const items = parse_elements();
   return (
     <div className="home">
-      <h1 style={{ fontSize: "10rem" }}>UConn AI</h1>
+      {/* <h1 style={{ fontSize: "10rem" }}>UConn AI</h1> */}
       <p className="upcomingText">Upcoming Events</p>
       <Calendar />
       <h2 className="teamText">The Team</h2>
