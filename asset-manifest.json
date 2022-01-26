@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b05096.chunk.css",
-    "main.js": "/static/js/main.2ed341da.chunk.js",
-    "main.js.map": "/static/js/main.2ed341da.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.5dcd0222.js",
-    "runtime~main.js.map": "/static/js/runtime~main.5dcd0222.js.map",
-    "static/js/2.4c75b3f4.chunk.js": "/static/js/2.4c75b3f4.chunk.js",
-    "static/js/2.4c75b3f4.chunk.js.map": "/static/js/2.4c75b3f4.chunk.js.map",
-    "static/js/3.d439ba6f.chunk.js": "/static/js/3.d439ba6f.chunk.js",
-    "static/js/3.d439ba6f.chunk.js.map": "/static/js/3.d439ba6f.chunk.js.map",
+    "main.css": "/static/css/main.065c9d08.css",
+    "main.js": "/static/js/main.250532ad.js",
+    "static/media/Ronak.jpg": "/static/media/Ronak.35cbfc742a21a909810d.jpg",
+    "static/media/Alex-Moment.jpg": "/static/media/Alex-Moment.a60071e83cb4d1cb1fb0.jpg",
+    "static/media/Manik_soomro.jpg": "/static/media/Manik_soomro.03858c4a682d91fcb33c.jpg",
+    "static/media/Charitarth.jpg": "/static/media/Charitarth.54caf6c7790e392bbdb6.jpg",
+    "static/media/image0.jpg": "/static/media/image0.f78d445c925fd7bfa792.jpg",
+    "static/media/Sid.jpg": "/static/media/Sid.0791eeaf804381eb86a1.jpg",
+    "static/media/logo.jpg": "/static/media/logo.86a758c9e75d5c54664d.jpg",
+    "static/media/Alex.jpg": "/static/media/Alex.5cc51c15ef02fd639138.jpg",
+    "static/media/Usman.jpg": "/static/media/Usman.ff7ef7bfeb6b7ebb3448.jpg",
     "index.html": "/index.html",
-    "precache-manifest.785fefc9b063786df1209821d6b6d1d8.js": "/precache-manifest.785fefc9b063786df1209821d6b6d1d8.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.06e73328.svg"
-  }
+    "main.065c9d08.css.map": "/static/css/main.065c9d08.css.map",
+    "main.250532ad.js.map": "/static/js/main.250532ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.065c9d08.css",
+    "static/js/main.250532ad.js"
+  ]
 }
