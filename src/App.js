@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-import React from 'react';
+import "./CSS/App.css";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate as Redirect,
+} from "react-router-dom";
+import HomePage from "./Pages/Home";
+import TeamPage from "./Pages/TeamPage";
+import JoinPage from "./Pages/JoinPage";
+import NotFound from "./Pages/NotFound";
+import NavagationBar from "./Components/NavigationBar";
+import ProjectsPage from "./Pages/ProjectsPage";
+import Footer from "./Components/FooterComponent";
+import TutPage from "./Pages/TutorialPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ marginTop: "10rem", textAlign: "center" }}>
+      <NavagationBar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/TeamPage" element={<TeamPage />} />
+        <Route path="/JoinPage" element={<JoinPage />} />
+        <Route path="/ProjectsPage" element={<ProjectsPage />} />
+        <Route path="/TutorialPage" element={<TutPage />} />
+        <Route path="404" element={<NotFound />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
