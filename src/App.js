@@ -17,7 +17,7 @@ import TutPage from "./Pages/TutorialPage";
 
 function App() {
   return (
-    <div style={{ marginTop: "7rem", textAlign: "center" }}>
+    <div style={{ marginTop: "10rem", textAlign: "center" }}>
       <NavagationBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
