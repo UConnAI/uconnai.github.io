@@ -5,7 +5,7 @@ import "../CSS/MemberBox.css";
 function Footer() {
   return (
     <div className="Footer">
-      <a href="https://www.instagram.com/uconndsaiclub/" target="_blank">
+      <a href="https://www.instagram.com/uconndsaiclub/">
         <img
           src={InstagramIcon}
           alt={InstagramIcon}

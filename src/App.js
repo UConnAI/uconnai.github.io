@@ -13,6 +13,8 @@ import NotFound from "./Pages/NotFound";
 import NavagationBar from "./Components/NavigationBar";
 import ProjectsPage from "./Pages/ProjectsPage";
 import Footer from "./Components/FooterComponent";
+import TutPage from "./Pages/TutorialPage";
+
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,7 @@ function App() {
         <Route path="/TeamPage" element={<TeamPage />} />
         <Route path="/JoinPage" element={<JoinPage />} />
         <Route path="/ProjectsPage" element={<ProjectsPage />} />
+        <Route path="/TutorialPage" element={<TutPage />} />
         <Route path="404" element={<NotFound />} />
       </Routes>
       <Footer />
