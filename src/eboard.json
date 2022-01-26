@@ -9,11 +9,12 @@
       "bio": "I am a Honors Computer Science and Pre-med student. I am interested in Machine Learning and Digital Health."
     }
   ],
-  "VicePresident": [
+  "Vice President": [
     {
       "name": "Usman Rahman",
       "major": ["Computer Science"],
       "minor": [],
+      "pic-path":"./assets/Usman.jpg",
       "grad-year": 2023,
       "bio": ""
     }
@@ -23,6 +24,7 @@
       "name": "Mike Baz",
       "major": ["Computer Science"],
       "minor": [],
+      "pic-path": "",
       "grad-year": 2023,
       "bio": ""
     }
@@ -39,18 +41,20 @@
   ],
   "Social Media Admin": [
     {
-      "name": "",
+      "name": "Sopha Levitina",
       "major": ["Physics"],
       "minor": ["Astrophysics"],
       "grad-year": 2023,
-      "bio": ""
+      "bio": "",
+      "pic-path":""
     },
     {
       "name": "Kaitlyn Tran",
       "major": [],
       "minor": [],
       "grad-year": 2023,
-      "bio": ""
+      "bio": "",
+      "pic-path":""
     }
   ],
   "Webmaster": [
@@ -59,7 +63,8 @@
       "major": ["Computer Science", "Applied Mathamatics"],
       "minor": [],
       "grad-year": 2023,
-      "bio": ""
+      "bio": "",
+      "pic-path":""
     },
     {
       "name": "Siddarth Sinha",
@@ -74,7 +79,8 @@
       "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2023,
-      "bio": ""
+      "bio": "My major is Computer Science and I work primarily in Software programming with Control Systems. In my spare time, I play cymbals with the UConn Drumline or developing applications.",
+      "pic-path":""
     }
   ],
   "Consultant": [
@@ -83,7 +89,8 @@
       "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2024,
-      "bio": "I am a visiting researcher who is interested in Natural Language Processing"
+      "bio": "I am a visiting researcher who is interested in Natural Language Processing",
+      "pic-path":""
     }
   ]
 }
