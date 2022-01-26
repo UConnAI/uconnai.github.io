@@ -18,9 +18,12 @@ const NavagationBar = ({ sticky }) => {
         <Link to="/TutorialPage" className="navbar-link-item">
           Tutorials
         </Link>
-        <Link to="JoinPage">
+        {/* <Link to="JoinPage">
           <div className="joinText">Join</div>
-        </Link>
+        </Link> */}
+        <a href="https://linktr.ee/uconnaiclub">
+          <div className="joinText">Join</div>
+        </a>
       </div>
     </nav>
   );
