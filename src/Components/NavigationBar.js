@@ -12,9 +12,9 @@ const NavagationBar = ({ sticky }) => {
         <Link to="/TeamPage" className="navbar-link-item">
           Team
         </Link>
-        <Link to="/ProjectsPage" className="navbar-link-item">
+        {/* <Link to="/ProjectsPage" className="navbar-link-item">
           Projects
-        </Link>
+        </Link> */}
         <Link to="/TutorialPage" className="navbar-link-item">
           Tutorials
         </Link>

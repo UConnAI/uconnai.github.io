@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Components/FooterComponent";
 import "../CSS/TutorialVideo.css";
 
 const TutPage = () => {
