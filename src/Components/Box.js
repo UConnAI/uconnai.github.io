@@ -1,5 +1,4 @@
 import React from "react";
-import TestPicture from "../image0.jpg";
 import "../CSS/MemberBox.css";
 import RoundedPicture from "./RoundedPicture";
 function Box(props) {
