@@ -23,6 +23,7 @@
 
 .RoundedImage {
   border-radius: 50%;
+  position: static;
   background: #c4c4c4;
 }
 
