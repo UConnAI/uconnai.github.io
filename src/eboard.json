@@ -55,14 +55,16 @@
       "grad-year": 2023,
       "bio": "",
       "pic-path": "logo.jpg"
-    },
+    }
+  ],
+  "Website Designer": [
     {
       "name": "Bridget Smith-Epaul",
       "major": ["Digital Media and Design"],
       "minor": [],
       "grad-year": 2023,
       "bio": "",
-      "pic-path": "logo.jpg"
+      "pic-path": "bridget.jpg"
     }
   ],
   "Webmaster": [

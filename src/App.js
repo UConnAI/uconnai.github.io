@@ -18,6 +18,9 @@ import TutPage from "./Pages/TutorialPage";
 function App() {
   return (
     <div style={{ marginTop: "10rem", textAlign: "center" }}>
+      <head>
+        <title>UConn AI</title>
+      </head>
       <NavagationBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -27,7 +30,6 @@ function App() {
         <Route path="/TutorialPage" element={<TutPage />} />
         <Route path="404" element={<NotFound />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
