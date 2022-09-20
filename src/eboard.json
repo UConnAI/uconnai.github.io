@@ -21,12 +21,12 @@
   ],
   "Treasurer": [
     {
-      "name": "Mike Baz",
-      "major": ["Computer Science"],
-      "minor": [],
-      "pic-path": "logo.jpg",
+      "name": "Bowen Zhang",
+      "major": ["Actuarial Science"],
+      "minor": ["Statistics"],
+      "pic-path": "Bowen 2.png",
       "grad-year": 2023,
-      "bio": ""
+      "bio": "I'm an Actuarial Science student and also a tech fan. I think artificial intelligence is one of the most exciting and pragmatic areas."
     }
   ],
   "Secretary": [
@@ -36,7 +36,7 @@
       "minor": [],
       "grad-year": 2025,
       "pic-path": "Charitarth.jpg",
-      "bio": "I am a freshman who is always interested in expanding my knowlege about Deep Learning and Linux. I am keen on learning more about MLOps and Transformers."
+      "bio": "I am a sophomore who is always interested in expanding my knowlege about Deep Learning and Linux. I am keen on learning more about MLOps and Transformers."
     }
   ],
   "Social Media Admin": [
@@ -82,7 +82,7 @@
       "minor": [],
       "pic-path": "Sid.jpg",
       "grad-year": 2024,
-      "bio": "I’m a sophomore majoring in computer science and engineering. I’m interested computer vision and deep learning"
+      "bio": "I’m a junior majoring in computer science and engineering. I’m interested computer vision and deep learning"
     },
     {
       "name": "Manik Soomro",
