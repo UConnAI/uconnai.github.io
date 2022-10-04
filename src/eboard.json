@@ -24,7 +24,7 @@
       "name": "Bowen Zhang",
       "major": ["Actuarial Science"],
       "minor": ["Statistics"],
-      "pic-path": "Bowen 3.jpg",
+      "pic-path": "Bowen.jpg",
       "grad-year": 2023,
       "bio": "I'm an Actuarial Science student and also a tech fan. I think artificial intelligence is one of the most exciting and pragmatic areas."
     }
@@ -41,12 +41,12 @@
   ],
   "Social Media Admin": [
     {
-      "name": "Sofya Levitina",
-      "major": ["Physics"],
-      "minor": ["Astrophysics"],
-      "grad-year": 2023,
+      "name": "Nicholas Couillard",
+      "major": ["Computer Science", "Communication"],
+      "minor": [""],
+      "grad-year": 2025,
       "bio": "",
-      "pic-path": "Sofya.jpeg"
+      "pic-path": "Couillard.jpeg"
     },
     {
       "name": "Kaitlyn Tran",
