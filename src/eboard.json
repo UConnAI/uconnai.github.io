@@ -29,6 +29,16 @@
       "bio": "I'm an Actuarial Science student and also a tech fan. I think artificial intelligence is one of the most exciting and pragmatic areas."
     }
   ],
+  "Head Webmaster": [
+    {
+      "name": "Ronak Sahu",
+      "major": ["Computer Science & Engineering", "Applied Mathamatics"],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": "",
+      "pic-path": "Ronak.jpg"
+    }
+  ],
   "Secretary": [
     {
       "name": "Charitarth Chugh",
@@ -68,14 +78,6 @@
     }
   ],
   "Webmaster": [
-    {
-      "name": "Ronak Sahu",
-      "major": ["Computer Science & Engineering", "Applied Mathamatics"],
-      "minor": [],
-      "grad-year": 2023,
-      "bio": "",
-      "pic-path": "Ronak.jpg"
-    },
     {
       "name": "Siddharth Sinha",
       "major": ["Computer Science & Engineering"],
