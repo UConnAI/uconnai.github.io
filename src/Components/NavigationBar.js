@@ -21,7 +21,7 @@ const NavagationBar = ({ sticky }) => {
         {/* <Link to="JoinPage">
           <div className="joinText">Join</div>
         </Link> */}
-        <a href="https://linktr.ee/uconnaiclub">
+        <a target="_blank" href="https://linktr.ee/uconnaiclub">
           <div className="joinText">Join</div>
         </a>
       </div>
