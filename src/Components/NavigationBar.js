@@ -21,6 +21,7 @@ const NavagationBar = ({ sticky }) => {
         {/* <Link to="JoinPage">
           <div className="joinText">Join</div>
         </Link> */}
+        {/* eslint-disable-next-line */}
         <a target="_blank" href="https://linktr.ee/uconnaiclub">
           <div className="joinText">Join</div>
         </a>
