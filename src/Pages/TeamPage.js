@@ -20,13 +20,17 @@ const parse_elements = () => {
   for (const key in data) {
     for (const a in data[key]) {
       const current = data[key][a];
+      let majnmin = current["major"].join(", ");
+      if (current["minor"] != "") {
+        majnmin += "/" + current["minor"].join(", ");
+      }
       members.push(
         <InformationBox
           key={current["name"]}
           Name={current["name"]}
           Position={key}
           Year={current["grad-year"]}
-          MajandMin={current["major"]}
+          MajandMin={majnmin}
           AdditionalInfo={current["bio"]}
           pic={current["pic-path"]}
         />

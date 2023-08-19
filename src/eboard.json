@@ -21,12 +21,22 @@
   ],
   "Treasurer": [
     {
-      "name": "Mike Baz",
+      "name": "Manik Soomro",
       "major": ["Computer Science"],
       "minor": [],
-      "pic-path": "logo.jpg",
       "grad-year": 2023,
-      "bio": ""
+      "bio": "My major is Computer Science and I work primarily in Software programming with Control Systems. In my spare time, I play cymbals with the UConn Drumline or developing applications.",
+      "pic-path": "Manik_soomro.jpg"
+    }
+  ],
+  "Head Webmaster": [
+    {
+      "name": "Ronak Sahu",
+      "major": ["Computer Science & Engineering", "Applied Mathamatics"],
+      "minor": [],
+      "grad-year": 2023,
+      "bio": "",
+      "pic-path": "Ronak.jpg"
     }
   ],
   "Secretary": [
@@ -36,25 +46,25 @@
       "minor": [],
       "grad-year": 2025,
       "pic-path": "Charitarth.jpg",
-      "bio": "I am a freshman who is always interested in expanding my knowlege about Deep Learning and Linux. I am keen on learning more about MLOps and Transformers."
+      "bio": "I am a sophomore who is always interested in expanding my knowlege about Deep Learning and Linux. I am keen on learning more about MLOps, Systems Programming, and Transformers."
     }
   ],
   "Social Media Admin": [
     {
-      "name": "Sofya Levitina",
-      "major": ["Physics"],
-      "minor": ["Astrophysics"],
-      "grad-year": 2023,
+      "name": "Nicholas Couillard",
+      "major": ["Computer Science", "Communication"],
+      "minor": [""],
+      "grad-year": 2025,
       "bio": "",
-      "pic-path": "Sofya.jpeg"
+      "pic-path": "Couillard.jpeg"
     },
     {
       "name": "Kaitlyn Tran",
-      "major": [],
-      "minor": [],
+      "major": ["Allied Health Sciences"],
+      "minor": ["HDFS minor"],
       "grad-year": 2023,
       "bio": "",
-      "pic-path": "logo.jpg"
+      "pic-path": "Kaitlyn.jpeg"
     }
   ],
   "Website Designer": [
@@ -82,15 +92,7 @@
       "minor": [],
       "pic-path": "Sid.jpg",
       "grad-year": 2024,
-      "bio": "I’m a sophomore majoring in computer science and engineering. I’m interested computer vision and deep learning"
-    },
-    {
-      "name": "Manik Soomro",
-      "major": ["Computer Science"],
-      "minor": [],
-      "grad-year": 2023,
-      "bio": "My major is Computer Science and I work primarily in Software programming with Control Systems. In my spare time, I play cymbals with the UConn Drumline or developing applications.",
-      "pic-path": "Manik_soomro.jpg"
+      "bio": "I’m a junior majoring in computer science and engineering. I’m interested computer vision and deep learning"
     }
   ],
   "Consultant": [
@@ -100,7 +102,7 @@
       "minor": [],
       "grad-year": 2024,
       "bio": "I am a visiting researcher who is interested in Natural Language Processing",
-      "pic-path": "logo.jpg"
+      "pic-path": "NickGalindo.jpeg"
     }
   ]
 }
