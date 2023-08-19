@@ -21,7 +21,7 @@ const parse_elements = () => {
     for (const a in data[key]) {
       const current = data[key][a];
       let majnmin = current["major"].join(", ");
-      if (current["minor"] != "") {
+      if (current["minor"] !== "") {
         majnmin += "/" + current["minor"].join(", ");
       }
       members.push(
@@ -33,7 +33,7 @@ const parse_elements = () => {
           MajandMin={majnmin}
           AdditionalInfo={current["bio"]}
           pic={current["pic-path"]}
-        />
+        />,
       );
     }
   }

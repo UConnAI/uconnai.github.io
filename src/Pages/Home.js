@@ -25,7 +25,7 @@ const parse_elements = () => {
           key={current["name"]}
           Name={current["name"]}
           pic={current["pic-path"]}
-        />
+        />,
       );
     }
   }
