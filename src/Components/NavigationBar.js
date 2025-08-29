@@ -10,7 +10,7 @@ const NavagationBar = ({ sticky }) => {
 
       <div className="textHeader">
         <Link to="/">
-          <img src={logo} alt="UConn AI Logo" height="50px"/>
+          <img src={logo} alt="UConn AI Logo" height="45px" style={{ marginTop: "10px", marginBottom: "0px" }}/>
         </Link>
       </div>
 
