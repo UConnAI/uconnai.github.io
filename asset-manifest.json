@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.05d48931.css",
-    "main.js": "/static/js/main.7f412781.js",
+    "main.js": "/static/js/main.9d86befa.js",
     "static/media/vp.jpg": "/static/media/vp.13073cce8d336a0fcb49.jpg",
     "static/media/advisor.jpg": "/static/media/advisor.f29bc7a6af8866e9897b.jpg",
     "static/media/social_media.jpg": "/static/media/social_media.34df47e5085db274a517.jpg",
+    "static/media/president.jpg": "/static/media/president.a77277e8408af579aca7.jpg",
     "static/media/image0.jpg": "/static/media/image0.f78d445c925fd7bfa792.jpg",
-    "static/media/president.jpg": "/static/media/president.0365e825c123bbdf558b.jpg",
-    "static/media/secretary copy.jpg": "/static/media/secretary copy.0365e825c123bbdf558b.jpg",
+    "static/media/logo.jpg": "/static/media/logo.199764c5b8ae2a174c1f.jpg",
     "static/media/secretary.jpg": "/static/media/secretary.0365e825c123bbdf558b.jpg",
     "static/media/webmaster.jpg": "/static/media/webmaster.0365e825c123bbdf558b.jpg",
-    "static/media/logo.jpg": "/static/media/logo.86a758c9e75d5c54664d.jpg",
     "static/media/treasurer.jpg": "/static/media/treasurer.c7d92a2208b7f0ef273a.jpg",
     "index.html": "/index.html",
     "main.05d48931.css.map": "/static/css/main.05d48931.css.map",
-    "main.7f412781.js.map": "/static/js/main.7f412781.js.map"
+    "main.9d86befa.js.map": "/static/js/main.9d86befa.js.map"
   },
   "entrypoints": [
     "static/css/main.05d48931.css",
-    "static/js/main.7f412781.js"
+    "static/js/main.9d86befa.js"
   ]
 }
