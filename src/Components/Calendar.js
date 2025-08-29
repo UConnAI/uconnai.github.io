@@ -5,11 +5,15 @@ import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import googleCalendarPlugin from "@fullcalendar/google-calendar";
 import "../CSS/Calendar.css";
+
+
 const Calendar = () => {
   const api_key = process.env.REACT_APP_CAL_API;
   return (
     <div id="Calendar">
       <FullCalender
+        height="100%"
+        contentHeight="auto"
         plugins={[
           dayGridPlugin,
           timeGridPlugin,

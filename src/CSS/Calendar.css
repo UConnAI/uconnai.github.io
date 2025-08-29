@@ -3,4 +3,6 @@ div#Calendar {
   height: 45rem;
   width: 45rem;
   margin: 0 auto;
+  z-index: 1;
+  overflow: hidden;   /* prevents scroll bar always */
 }
