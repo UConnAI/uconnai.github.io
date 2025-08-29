@@ -1,108 +1,62 @@
 {
   "President": [
     {
-      "name": "Alexander Solod",
+      "name": "Charitarth Chugh",
       "major": ["Computer Science"],
       "minor": [],
-      "grad-year": 2023,
-      "pic-path": "Alex.jpg",
-      "bio": "I am a Honors Computer Science and Pre-med student. I am interested in Machine Learning and Digital Health."
+      "grad-year": 2027,
+      "pic-path": "president.jpg"
     }
   ],
   "Vice President": [
     {
-      "name": "Usman Rahman",
+      "name": "Ankith Nagabandi",
       "major": ["Computer Science"],
       "minor": [],
-      "pic-path": "Usman.jpg",
-      "grad-year": 2023,
-      "bio": ""
+      "pic-path": "vp.jpg",
+      "grad-year": 2027
     }
   ],
   "Treasurer": [
     {
-      "name": "Manik Soomro",
+      "name": "Allen Tran",
       "major": ["Computer Science"],
       "minor": [],
-      "grad-year": 2023,
-      "bio": "My major is Computer Science and I work primarily in Software programming with Control Systems. In my spare time, I play cymbals with the UConn Drumline or developing applications.",
-      "pic-path": "Manik_soomro.jpg"
+      "grad-year": 2025,
+      "pic-path": "treasurer.jpg"
     }
   ],
   "Head Webmaster": [
     {
-      "name": "Ronak Sahu",
-      "major": ["Computer Science & Engineering", "Applied Mathamatics"],
+      "name": "Kevin Huang",
+      "major": ["Computer Science"],
       "minor": [],
-      "grad-year": 2023,
-      "bio": "",
-      "pic-path": "Ronak.jpg"
+      "grad-year": 2026,
+      "pic-path": "webmaster.jpg"
     }
   ],
   "Secretary": [
     {
-      "name": "Charitarth Chugh",
+      "name": "Kevin Huang",
       "major": ["Computer Science"],
       "minor": [],
-      "grad-year": 2025,
-      "pic-path": "Charitarth.jpg",
-      "bio": "I am a sophomore who is always interested in expanding my knowlege about Deep Learning and Linux. I am keen on learning more about MLOps, Systems Programming, and Transformers."
+      "grad-year": 2026,
+      "pic-path": "secretary.jpg"
     }
   ],
   "Social Media Admin": [
     {
-      "name": "Nicholas Couillard",
-      "major": ["Computer Science", "Communication"],
+      "name": "Kris Rimal",
+      "major": ["Computer Science"],
       "minor": [""],
-      "grad-year": 2025,
-      "bio": "",
-      "pic-path": "Couillard.jpeg"
-    },
-    {
-      "name": "Kaitlyn Tran",
-      "major": ["Allied Health Sciences"],
-      "minor": ["HDFS minor"],
-      "grad-year": 2023,
-      "bio": "",
-      "pic-path": "Kaitlyn.jpeg"
+      "grad-year": 2028,
+      "pic-path": "social_media.jpg"
     }
   ],
-  "Website Designer": [
+  "Advisor": [
     {
-      "name": "Bridget Smith-Epaul",
-      "major": ["Computer Science"],
-      "minor": [],
-      "grad-year": 2023,
-      "bio": "",
-      "pic-path": "bridget.jpg"
-    }
-  ],
-  "Webmaster": [
-    {
-      "name": "Ronak Sahu",
-      "major": ["Computer Science", "Applied Mathamatics"],
-      "minor": [],
-      "grad-year": 2023,
-      "bio": "",
-      "pic-path": "Ronak.jpg"
-    },
-    {
-      "name": "Siddharth Sinha",
-      "major": ["Computer Science and Engineering"],
-      "minor": [],
-      "pic-path": "Sid.jpg",
-      "grad-year": 2024,
-      "bio": "I’m a junior majoring in computer science and engineering. I’m interested computer vision and deep learning"
-    }
-  ],
-  "Consultant": [
-    {
-      "name": "Nicolas David Galindo Carvajal",
-      "major": ["Computer Science"],
-      "minor": [],
-      "grad-year": 2024,
-      "bio": "I am a visiting researcher who is interested in Natural Language Processing",
-      "pic-path": "NickGalindo.jpeg"
+      "name": "Professor Derek Aguiar",
+      "pic-path": "advisor.jpg"
     }
   ]
 }

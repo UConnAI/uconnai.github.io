@@ -2,6 +2,8 @@ import React from "react";
 import "../CSS/HomePage.css";
 import TeamPictures from "../Components/TeamPictures";
 import Calendar from "../Components/Calendar";
+
+
 const HomePage = () => {
   const items = parse_elements();
   return (
