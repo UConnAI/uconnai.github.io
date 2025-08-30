@@ -5,7 +5,8 @@
       "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2027,
-      "pic-path": "president.jpg"
+      "pic-path": "president.jpg",
+      "position": "President"
     }
   ],
   "Vice President": [
@@ -13,26 +14,9 @@
       "name": "Ankith Nagabandi",
       "major": ["Computer Science"],
       "minor": [],
+      "grad-year": 2027,
       "pic-path": "vp.jpg",
-      "grad-year": 2027
-    }
-  ],
-  "Treasurer": [
-    {
-      "name": "Allen Tran",
-      "major": ["Computer Science"],
-      "minor": [],
-      "grad-year": 2025,
-      "pic-path": "treasurer.jpg"
-    }
-  ],
-  "Head Webmaster": [
-    {
-      "name": "Kevin Huang",
-      "major": ["Computer Science"],
-      "minor": [],
-      "grad-year": 2026,
-      "pic-path": "webmaster.jpg"
+      "position": "Vice President"
     }
   ],
   "Secretary": [
@@ -41,7 +25,28 @@
       "major": ["Computer Science"],
       "minor": [],
       "grad-year": 2026,
-      "pic-path": "secretary.jpg"
+      "pic-path": "secretary.jpg",
+      "position": "Secretary"
+    }
+  ],
+  "Treasurer": [
+    {
+      "name": "Allen Tran",
+      "major": ["Computer Science"],
+      "minor": [],
+      "grad-year": 2025,
+      "pic-path": "treasurer.jpg",
+      "position": "Treasurer"
+    }
+  ],
+  "Head Webmaster": [
+    {
+      "name": "Kevin Huang",
+      "major": ["Computer Science"],
+      "minor": [],
+      "grad-year": 2026,
+      "pic-path": "webmaster.jpg",
+      "position": "Head Webmaster"
     }
   ],
   "Social Media Admin": [
@@ -50,13 +55,15 @@
       "major": ["Computer Science"],
       "minor": [""],
       "grad-year": 2028,
-      "pic-path": "social_media.jpg"
+      "pic-path": "social_media.jpg",
+      "position": "Social Media Admin"
     }
   ],
   "Advisor": [
     {
       "name": "Professor Derek Aguiar",
-      "pic-path": "advisor.jpg"
+      "pic-path": "advisor.jpg",
+      "position": "Advisor"
     }
   ]
 }
