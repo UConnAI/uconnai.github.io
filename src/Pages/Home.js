@@ -2,10 +2,14 @@ import React from "react";
 import "../CSS/HomePage.css";
 import TeamPictures from "../Components/TeamPictures";
 import Calendar from "../Components/Calendar";
+
+
+
 const HomePage = () => {
   const items = parse_elements();
   return (
     <div className="home">
+
       {/* <h1 style={{ fontSize: "10rem" }}>UConn AI</h1> */}
       <p className="upcomingText">Upcoming Events</p>
       <Calendar />
@@ -25,6 +29,7 @@ const parse_elements = () => {
           key={current["name"]}
           Name={current["name"]}
           pic={current["pic-path"]}
+          position={current["position"]}
         />,
       );
     }

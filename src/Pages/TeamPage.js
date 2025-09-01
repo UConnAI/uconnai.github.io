@@ -33,6 +33,7 @@ const parse_elements = () => {
           MajandMin={majnmin}
           AdditionalInfo={current["bio"]}
           pic={current["pic-path"]}
+          position={current["position"]}
         />,
       );
     }

@@ -9,7 +9,8 @@ const TeamPictures = (props) => {
         image={require(`../assets/${props.pic}`)}
         person={props.Name}
       />
-      <h1 className="MemberNameText">{props.Name}</h1>
+      <h2 className="MemberNameText">{props.Name}</h2>
+      <p className="MemberPositionText">{props.position}</p>
     </div>
   );
 };
